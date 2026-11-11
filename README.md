@@ -1,6 +1,6 @@
 # iptv4unifi: KPN-tv op een UniFi-router
 
-**Versie 1.1.0 (2026-11-11)** · voor KPN, XS4ALL en Freedom · [Versies](#versies)
+**Versie 1.1.0 (2026-11-11)** · voor KPN, ( XS4ALL en Freedom)  · [Versies](#versies)
 
 Met dit script werkt **KPN-tv** (ook via XS4ALL of Freedom, die het KPN-netwerk gebruiken) maar is alleen getest met KPN als provider op een UniFi-router met UniFi OS, zoals de Dream Router 7 (UDR7), Dream Router (UDR), Dream Machine (UDM/Pro/SE), Cloud Gateway (UCG) of UXG. Het glasvezelkastje (ONT) gaat dan rechtstreeks in je UniFi-router; de KPN Box is niet nodig.
 
