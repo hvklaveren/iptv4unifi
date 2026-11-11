@@ -2,9 +2,9 @@
 
 **Versie 1.1.0 (2026-11-11)** · voor KPN, XS4ALL en Freedom · [Versies](#versies)
 
-Met dit script werkt **KPN-tv** (ook via XS4ALL of Freedom, die het KPN-netwerk gebruiken) op een UniFi-router met UniFi OS, zoals de Dream Router 7 (UDR7), Dream Router (UDR), Dream Machine (UDM/Pro/SE), Cloud Gateway (UCG) of UXG. Het glasvezelkastje (ONT) gaat dan rechtstreeks in je UniFi-router; de KPN Box is niet nodig.
+Met dit script werkt **KPN-tv** (ook via XS4ALL of Freedom, die het KPN-netwerk gebruiken) maar is alleen getest met KPN als provider op een UniFi-router met UniFi OS, zoals de Dream Router 7 (UDR7), Dream Router (UDR), Dream Machine (UDM/Pro/SE), Cloud Gateway (UCG) of UXG. Het glasvezelkastje (ONT) gaat dan rechtstreeks in je UniFi-router; de KPN Box is niet nodig.
 
-Het is een vervanger van [fabianishere/udm-iptv](https://github.com/fabianishere/udm-iptv), speciaal voor KPN, met een paar verbeteringen:
+Met dank aan het script van  [fabianishere/udm-iptv](https://github.com/fabianishere/udm-iptv), heb ik dit met grote ai vriend kunnen troubelshooten alleen oor KPN, met een paar verbeteringen:
 
 - **Overleeft firmware-updates.** Alles staat in `/data`, en via [unifi-on-boot](https://github.com/unredacted/unifi-on-boot) herstelt het zichzelf na een update, zonder opnieuw te installeren of te configureren.
 - **Watchdog.** UniFi herschrijft bij elke wijziging de netwerkconfiguratie. Het script controleert elke 30 seconden of de tv-interface, het DHCP-adres, de NAT-regels en de IGMP-proxy er nog zijn, en herstelt wat ontbreekt.
