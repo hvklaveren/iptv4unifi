@@ -1,0 +1,3 @@
+# Scripts altijd met Linux-regeleindes (LF), ook als ze op Windows bewerkt worden
+*.sh text eol=lf
+*.md text eol=lf
